@@ -4,6 +4,7 @@ CREATE TABLE [dbo].[Table_1]
 [Col1] [nchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [col2] [nchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 [created] [datetime] NOT NULL CONSTRAINT [DF_Table_1_created] DEFAULT (getdate()),
-[createdBy] [nchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL
+[createdBy] [nchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+[add_col] [nchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
 ) ON [PRIMARY]
 GO
